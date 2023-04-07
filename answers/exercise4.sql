@@ -1,5 +1,6 @@
 SELECT Country, COUNT(*) AS Number
-FROM Students;
+FROM Students
+GROUP BY Country;
 
 
 or
